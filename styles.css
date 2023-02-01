@@ -5,137 +5,71 @@
     margin: 0;
 
 }
-.main-container{
-    
-    background-color: white;
-    width: 80%;
-    height: 80%;
-    margin: 100px 20px 20px 150px;
-    border: 4px solid black;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+body{
+    position: relative;
 }
+
 .container{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(199, 160, 160);
-    color: aliceblue;
-    width: 94%;
-    height: 30%;
-    margin: 50px 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 4px solid black;
-}
-.one{
-    display: flex;
-    flex-direction: row;
-    background-color: brown;
-    color: aliceblue;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 4px solid black;
-}
-.two{
-    display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
-    color: aliceblue;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 4px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 2px;
+        margin-top: 45px;
+    }
+    input {
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        height: 25px;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+    }
     
-}
-.three{
-    display: flex;
-    flex-direction: row;
-    background-color: green;
-    color: aliceblue;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 4px solid black;
+    img {
+        width: 23%;
+    }
+    #btn{
+        margin-top: 5px;
+        width: 65px;
+        border-radius: 11px;
+    }
+    #btn:hover{
+        background-color: black;
+        color: red;
+    }
+    #dice-icon {
+        width: 190px;
+        height: 160px;
+    }
     
-}
-.dice-img{
-    background-color: aqua;
-    width: 250px;
-    height: 250px;
-    margin-left: 500px;
-    margin-top: -200px;
-    visibility: hidden;
-}
-img{
-    width: 200px;
-    margin-top: 25px;
+    #btn-2{
+        width: 55px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    #btn-2:hover{
+        background-color: black;
+        color: red;
+    }
+    .btn3{
+        display: none;
+        margin-top: -6px;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .btn3:hover{
+        background-color: black;
+        color: red;
+    }
+    .image-form{
+        visibility: hidden;
+    }
+    .image-formv{
+        visibility: visible;
+    }
+    
 
-}
-.open-Diceimage{
-    visibility: visible;
-}
 
-.four{
-    display: flex;
-    flex-direction: row;
-    background-color: aqua;
-    color: aliceblue;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 4px solid black;
-    
-}
- .image-form{
-    width: 30%;
-    height: 180px;
-    margin: 50px 370px;
-    background-color: aliceblue;
-    border: 4px solid black;
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
-}
-.open-Imageform{
-    visibility: visible;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-    line-height: 20px;
-}
-h4{
-    font-size: 24px;
-    color: rgb(250, 78, 78);
-    margin-bottom: 10px;
-}
-input{
-    line-height: 0px;
-    margin-bottom: 15px;
-}
-button{
-    background-color: green;
-    color: white;
-    width: 150px;
-    border: 2px solid black;
-   
-}
+
